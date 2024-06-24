@@ -16,4 +16,4 @@ function solve(){
         document.getElementById("result").value = y;
     }
     
-}
+}  
