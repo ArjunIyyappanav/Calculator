@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CAE7DF;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 50px;
+}
+
+.Numbers{
+    padding-top : 220px ;
+    padding-left : 600px;
+}
+
+.num{
+    padding : 20px 20px;
+    font-size: 14px;
+    margin : 8px;
+    border : 0px solid #fff;
+    border-radius: 20px;
+}
+
+.num:hover{
+    font-size: large;
+}
+
+.spe:hover{
+    font-size: large;
+}
+
+.operators:hover{
+    font-size:large;
+}
+
+#result{
+    text-align: center;
+}
+
+.spe{
+    padding : 18px;
+    margin : 6px;
+    font-size: 14px;
+    border : 1px solid #fff;
+    border-radius: 20px;
+}
+
+.operators{
+    padding : 19px;
+    margin : 6px;
+    font-size : 14px;
+    border : 1px solid #fff;
+    border-radius : 20px;
+}
+
+#result{
+    height : 40px;
+    width : 255px;
+    margin-left: 2px;
+    font-size: 14px;
+    border : 1px solid #fff;
+    border-radius: 20px;
+}
