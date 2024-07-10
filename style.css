@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
 }
 
@@ -64,3 +64,143 @@ h1{
     border : 1px solid #fff;
     border-radius: 20px;
 }
+
+
+@media(max-width : 1000px){
+    .num{
+        width : 1000px;
+    }
+} */
+
+body{
+    background-image: url(https://user-images.githubusercontent.com/39142850/67110554-fdea5400-f20d-11e9-834a-d459a612b7b1.gif);
+    background-size:cover;
+}
+
+h1{
+    position: relative;
+    left : 50px;
+    font-family: "Playwrite DK Uloopet",cursive;
+}
+
+.calc-body{
+    position : absolute;
+    top : 25vh;
+    left : 75vh;
+    height : 100%;
+    width : 100%;
+}
+
+
+.num{
+    cursor : pointer;
+    width : 50px;
+    height : 50px;
+    position : relative;
+    background-color: rgba(255,255,255,0.3);
+    font-size : 20px;
+    color : #000000;
+    border-radius: 20px;
+    border : 2px solid #CAE7DF;
+    backdrop-filter: blur(5px);
+    font-family: "Ga Maamli",sans-serif;
+    margin : 10px 10px;
+}
+
+.clear{
+    cursor : pointer;
+    width : 120px;
+    height : 50px;
+    position: relative;
+    border : 2px solid #CAE7DF;
+    border-radius : 20px;
+    background-color:rgba(255,255,255,0.3);
+    color : #000000;
+    font-size: 20px;
+    font-family: "Ga Maamli",sans-serif;
+    backdrop-filter: blur(5px);
+    margin : 10px 10px;
+}
+
+#result{
+    cursor: pointer;
+    width : 190px;
+    height : 50px;
+    position: relative;
+    background-color: rgba(255,255,255,0.3);
+    color : #000000;
+    border : 2px solid #CAE7DF;
+    backdrop-filter : blur(5px);
+    border-radius : 20px;
+    font-size : 30px;
+    font-family: "Ga Maamli",sans-serif;
+    margin : 20px 10px;
+}
+
+.operations{
+    display : block;
+    position: relative;
+    width : 50px;
+    height : 50px;
+    position : relative;
+    background-color: rgba(255,255,255,0.3);
+    color : #000000;
+    border : 2px solid #CAE7DF;
+    backdrop-filter : blur(5px);
+    font-size : 20px;
+    border-radius: 20px;
+    font-family: "Ga Maamli",sans-serif;
+    margin : 20px 10px;
+}
+
+.calc-input{
+    display : block;
+}
+
+.calc-numbers{
+    display : inline-block;
+}
+
+.calc-operations{
+    display : inline-block;
+}
+
+.num:hover{
+    height : 60px;
+    width : 60px;
+    font-size: 25px;
+}
+
+.clear:hover{
+    height : 60px;
+    font-size: 25px;
+}
+
+.operations:hover{
+    height : 60px;
+    width : 60px;
+    font-size: 25px ;
+}
+
+/* @media(max-width : 1200px){
+    .calc-body{
+        height : 100%;
+        width : 100%;
+        position : absolute;
+        top : 25vh;
+        left : 50vh;
+    }
+    .num{
+        width : 35px;
+        height : 35px;
+        position : relative;
+        background-color: black;
+        font-size : 15px;
+        color : #ffffff;
+        border-radius: 2dvh;
+        border : 2px solid #fff;
+        font-family: "Ga Maamli",sans-serif;
+        margin : 7px 7px;
+    }
+} */
+

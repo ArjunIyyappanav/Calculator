@@ -1,19 +1,22 @@
 
-function dis(val) { 
-    document.getElementById("result").value += val ;
+function display(val) { 
+    if(val == "c"){
+        document.getElementById("result").value = " " ;
+    }
+    else{
+        document.getElementById("result").value += val ;
+    }
 } 
 
-function clr(){
-    document.getElementById("result").value = " ";
-}
 
 function solve(){
     let x = document.getElementById("result").value;
     let y = math.evaluate(x);
-    if(y == Infinity || y == NaN){
-        alert("Math Error");
+    if(y == Infinity || y == NaN || y == -Infinity){
+        alert("Math Error Boss!!!");
     }else{
         document.getElementById("result").value = y;
     }
     
 }  
+
